@@ -27,7 +27,7 @@
 			}
   </script>
   <link rel="icon" href="/imgs/favicon.ico">
-  <title>Plugin 原理 | 尚硅谷 Web 前端之 Webpack5 教程</title>
+  <title>Plugin 原理 | Web 前端之 Webpack5 教程</title>
   <meta name="description" content="Webpack5从小白到大神">
   <link rel="modulepreload" href="/webpackNode/assets/app.da53707b.js">
   <link rel="modulepreload" href="/webpackNode/assets/plugin.html.203b3c61.js">
@@ -44,7 +44,7 @@
         <div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0">
           <div class="icon" aria-hidden="true"><span></span><span></span><span></span></div>
         </div><span><a href="/webpackNode/" class=""><img class="logo" src="/webpackNode/imgs/favicon.ico"
-              alt="尚硅谷 Web 前端之 Webpack5 教程"><span class="site-name can-hide">尚硅谷 Web 前端之 Webpack5 教程</span></a></span>
+              alt="  Web 前端之 Webpack5 教程"><span class="site-name can-hide"> Web 前端之 Webpack5 教程</span></a></span>
         <div class="navbar-items-wrapper" style="">
           <!--[-->
           <!--]-->
@@ -392,7 +392,8 @@
             把编译过程中触发的各类关键事件封装成事件接口暴露了出来。这些接口被很形象地称做：<code>hooks</code>（钩子）。开发插件，离不开这些钩子。</p>
           <h3 id="tapable" tabindex="-1"><a class="header-anchor" href="#tapable" aria-hidden="true">#</a> Tapable</h3>
           <p><code>Tapable</code> 为 webpack 提供了统一的插件接口（钩子）类型定义，它是 webpack 的核心功能库。webpack 中目前有十种 <code>hooks</code>，在
-            <code>Tapable</code> 源码中可以看到，他们是：</p>
+            <code>Tapable</code> 源码中可以看到，他们是：
+          </p>
           <div class="language-javascript ext-js line-numbers-mode">
             <pre class="language-javascript"><code><span class="token comment">// https://github.com/webpack/tapable/blob/master/lib/index.js</span>
 exports<span class="token punctuation">.</span>SyncHook <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;./SyncHook&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>

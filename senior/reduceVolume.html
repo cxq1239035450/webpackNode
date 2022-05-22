@@ -20,14 +20,14 @@
     }
   </style>
   <script>
-      const userMode = localStorage.getItem('vuepress-color-scheme');
-			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
-				document.documentElement.classList.toggle('dark', true);
-			}
+    const userMode = localStorage.getItem('vuepress-color-scheme');
+    const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+      document.documentElement.classList.toggle('dark', true);
+    }
   </script>
   <link rel="icon" href="/imgs/favicon.ico">
-  <title>减少代码体积 | 尚硅谷 Web 前端之 Webpack5 教程</title>
+  <title>减少代码体积 | Web 前端之 Webpack5 教程</title>
   <meta name="description" content="Webpack5从小白到大神">
   <link rel="modulepreload" href="/webpackNode/assets/app.da53707b.js">
   <link rel="modulepreload" href="/webpackNode/assets/reduceVolume.html.e6463b12.js">
@@ -44,7 +44,7 @@
         <div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0">
           <div class="icon" aria-hidden="true"><span></span><span></span><span></span></div>
         </div><span><a href="/webpackNode/" class=""><img class="logo" src="/webpackNode/imgs/favicon.ico"
-              alt="尚硅谷 Web 前端之 Webpack5 教程"><span class="site-name can-hide">尚硅谷 Web 前端之 Webpack5 教程</span></a></span>
+              alt="  Web 前端之 Webpack5 教程"><span class="site-name can-hide"> Web 前端之 Webpack5 教程</span></a></span>
         <div class="navbar-items-wrapper" style="">
           <!--[-->
           <!--]-->
@@ -358,7 +358,8 @@
           <p>你可以将这些辅助代码作为一个独立模块，来避免重复引入。</p>
           <h3 id="是什么-1" tabindex="-1"><a class="header-anchor" href="#是什么-1" aria-hidden="true">#</a> 是什么</h3>
           <p><code>@babel/plugin-transform-runtime</code>: 禁用了 Babel 自动对每个文件的 runtime 注入，而是引入
-            <code>@babel/plugin-transform-runtime</code> 并且使所有辅助代码从这里引用。</p>
+            <code>@babel/plugin-transform-runtime</code> 并且使所有辅助代码从这里引用。
+          </p>
           <h3 id="怎么用-1" tabindex="-1"><a class="header-anchor" href="#怎么用-1" aria-hidden="true">#</a> 怎么用</h3>
           <ol>
             <li>下载包</li>
